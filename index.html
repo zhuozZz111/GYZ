@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <div class="avatar-container">
+                    <img src="./头像.jpg" alt="个人头像" class="avatar">
+                </div>
+                <h1>郭玉卓</h1>
+                <p class="title">大学生</p>
+            </div>
+
+            <div class="contact-info">
+                <h2>联系方式</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> 2936406172@qq.com</li>
+                    <li><i class="fas fa-phone"></i> +86 188 3768 9752</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 洛阳市，河南省</li>
+                    <li><i class="fab fa-github"></i> github.com/zhuozZz111</li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h2>核心技能</h2>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">前端开发</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HarmonyOS</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">数据库</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">后端开发</span>
+                            <span class="skill-percentage">55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <nav class="section-nav">
+                <a href="#about" class="nav-item active">简介</a>
+                <a href="#interests" class="nav-item">兴趣爱好</a>
+                <a href="#education" class="nav-item">教育</a>
+                <a href="#projects" class="nav-item">项目</a>
+            </nav>
+
+            <section id="about" class="about gradient-bg">
+                <h2><i class="fas fa-user"></i> 个人简介</h2>
+                <div class="section-content">
+                    <p>热爱生活，热衷于做自己喜欢的事情，专注与自己专业相关知识的学习，喜欢与人交流，喜欢与人分享，喜欢与人合作的一名平凡的大二学生。</p>
+                </div>
+            </section>
+
+            <section id="interests" class="interests gradient-bg">
+                <h2><i class="fas fa-heart"></i> 兴趣爱好</h2>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>编程开发</h3>
+                                <div class="period">主要方向</div>
+                                <ul>
+                                    <li>热衷于探索新的编程技术和框架</li>
+                                    <li>喜欢参与开源项目，与社区交流学习</li>
+                                    <li>经常在参加相关比赛，来提升自己的能力</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>游戏</h3>
+                                <div class="period">业余爱好</div>
+                                <ul>
+                                    <li>喜欢打英雄联盟，CS2，PUBG</li>
+                                    <li>有时会玩一些3A游戏，例如黑神话悟空，艾尔登法环，刺客信条</li>
+                                    <li>喜欢观看电竞比赛，例如英雄联盟，CS2，PUBG</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>摄影</h3>
+                                <div class="period">休闲爱好</div>
+                                <ul>
+                                    <li>喜欢用相机记录生活中的美好瞬间</li>
+                                    <li>专注于风光和人文摄影</li>
+                                    <li>会和朋友分享自己拍摄的照片</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education gradient-bg">
+                <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+                <div class="section-content">
+                    <div class="edu-item">
+                        <h3>软件工程</h3>
+                        <div class="school">华北水利水电大学</div>
+                        <div class="period">2023年 - 2027年</div>
+                        <div class="degree">本科学位</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects gradient-bg">
+                <h2><i class="fas fa-code"></i> 项目经历</h2>
+                <div class="section-content">
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <h3>开源鸿蒙</h3>
+                            <p>一个基于开源鸿蒙的操作系统，主要用于农业监测</p>
+                            <div class="project-tags">
+                                <span>HarmonyOS</span>
+                                <span>kingbase</span>
+                                <span>JavaWeb</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h3>基于RAG的AI助教</h3>
+                            <p>利用开源的大语言模型训练自己的AI助教，为学生提供学习辅导</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Langflow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 郭玉卓. All rights reserved.</p>
+    </footer>
+
+    <script>
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 100 },
+                color: { value: '#64ffda' },
+                shape: {
+                    type: ['circle', 'triangle', 'edge'],
+                    stroke: { width: 1, color: '#64ffda' }
+                },
+                opacity: {
+                    value: 0.6,
+                    random: true,
+                    animation: {
+                        enable: true,
+                        speed: 1,
+                        minimumValue: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    animation: {
+                        enable: true,
+                        speed: 2,
+                        minimumValue: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#64ffda',
+                    opacity: 0.2,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 1.5,
+                    direction: 'none',
+                    random: true,
+                    straight: false,
+                    outMode: 'bounce',
+                    attract: {
+                        enable: true,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    repulse: {
+                        distance: 100,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 4
+                    }
+                }
+            },
+            retina_detect: true
+        });
+
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.nav-item');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href').slice(1) === current) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <style>
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                45deg,
+                rgba(10, 25, 47, 0.9),
+                rgba(100, 255, 218, 0.1)
+            );
+            z-index: -2;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</body>
+</html> 
